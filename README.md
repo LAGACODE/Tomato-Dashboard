@@ -33,7 +33,7 @@
 ## First Version Released on 2025/2/21 (V1.6 - Can Release)  
 ### Project Languages: HTML, JavaScript, CSS, JSON, TXT  
 This project has only one officially established demo website: [Click Here](https://yo-codeback.github.io/Tomato-Dashboard/)  
-
+This project program was first created by ChatGPT, and then modified and uploaded by the author.
 ---
 
 ## Project Purpose  
