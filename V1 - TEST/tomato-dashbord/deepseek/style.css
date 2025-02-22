@@ -1,0 +1,115 @@
+/* 基础样式 */
+body {
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+    background: #e9ecef;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    height: 95vh;
+}
+
+/* 头部时间样式 */
+.header {
+    background: #2c3e50;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.time-group {
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+
+.clock {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.date, .weekday {
+    font-size: 1.8em;
+    align-self: center;
+}
+
+/* 垂直跑马灯 */
+.marquee-container {
+    height: 40px;
+    background: #34495e;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.marquee-content {
+    animation: marquee-vertical 15s linear infinite;
+    color: #fff;
+    line-height: 40px;
+    padding-left: 100%;
+    white-space: nowrap;
+}
+
+@keyframes marquee-vertical {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(-100%); }
+}
+
+/* 主内容区域 */
+.main-content {
+    display: flex;
+    gap: 20px;
+    height: calc(100% - 160px);
+}
+
+.trade-data {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.data-item {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+.highlight {
+    color: #2980b9;
+    font-weight: bold;
+}
+
+/* 图表区域 */
+.chart-container {
+    flex: 2;
+    position: relative;
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#tradeChart {
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.chart-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.9);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #e74c3c;
+    border-radius: 10px;
+}

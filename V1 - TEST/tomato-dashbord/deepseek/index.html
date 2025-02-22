@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交易數據監控系統</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部时间区块 -->
+        <div class="header">
+            <div class="time-group">
+                <div id="clock" class="clock">00:00:00</div>
+                <div id="date" class="date">民國113/01/01</div>
+                <div id="weekday" class="weekday">星期一</div>
+            </div>
+        </div>
+
+        <!-- 垂直跑马灯 -->
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <p>痾痾痾痾痾</p>
+            </div>
+        </div>
+
+        <!-- 主要内容区域 -->
+        <div class="main-content">
+            <!-- 左侧交易数据 -->
+            <div class="trade-data">
+                <h2>今日交易數據</h2>
+                <div class="data-item">
+                    <span>日期：</span>
+                    <span id="trade-date" class="highlight">114.02.05</span>
+                </div>
+                <div class="data-item">
+                    <span>平均價：</span>
+                    <span id="avg-price" class="highlight">38.2</span>
+                </div>
+                <div class="data-item">
+                    <span>市場：</span>
+                    <span id="market-name" class="highlight">台北二</span>
+                </div>
+                <div class="data-item">
+                    <span>交易量：</span>
+                    <span id="trade-volume" class="highlight">14,216</span>
+                </div>
+            </div>
+
+            <!-- 右侧图表区域 -->
+            <div class="chart-container">
+                <canvas id="tradeChart"></canvas>
+                <div class="chart-overlay" id="chartOverlay">
+                    <span>無法抓取資料</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
