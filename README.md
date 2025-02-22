@@ -5,7 +5,8 @@
 
 ## 本專案在2025/2/21發表第一個版本(V1.6 - Can Relase)
 本專案使用語言:Html JavaScript Css Json Txt<br>
-本專案無任何官方建立的"範例"網站
+本專案僅有一個官方建立的範例網站 網址如下
+https://yo-codeback.github.io/Tomato-Dashboard/
 
 ## 專案用途
 給農民販賣 番茄-牛番茄 的時候可顯示 當日平均價和交易量 以及過往之數據
