@@ -6,7 +6,8 @@
 
 ## 本專案在2025/2/21發表第一個版本(V1.6 - Can Relase)
 本專案使用語言:Html JavaScript Css Json Txt<br>
-本專案僅有一個官方建立的範例網站[點我](https://yo-codeback.github.io/Tomato-Dashboard/)
+本專案僅有一個官方建立的範例網站[點我](https://yo-codeback.github.io/Tomato-Dashboard/)<br>
+本專案程式皆由ChatGPT先行創作，再經由作者修改後上傳
 ---
 
 ## 專案用途
