@@ -1,0 +1,4 @@
+SHOW: 資料(taipei_data.json)內需有當日的資料，否則會失敗 輪播圖片需要放入資料夾，此處未放
+SHOW: 本網頁是官方架設的範例網頁
+SHOW: 歡迎查看本網頁，本網頁資料庫網址為 https://github.com/Yo-codeback/Tomato-Dashboard
+HIDE: 這是隱藏的文字，不會顯示
